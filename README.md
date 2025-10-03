@@ -4,7 +4,7 @@
 
 ## 📝 Description
 
-A personal portfolio website built with pure HTML, CSS, and JavaScript. This project showcases my web development skills and serves as a learning platform.
+A personal portfolio website built with HTML, CSS, and JavaScript. This project showcases my web development skills and serves as a learning platform.
 
 ## 🚀 Technologies Used
 
