@@ -1,36 +1,25 @@
-# My React App
+# My Portfolio Website
 
-## Description
-This is my first React application built with Vite. I'm learning web development with Node.js, Express, and React.
+![Project Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
-## Technologies Used
-- React
-- Vite  
-- Node.js
-- Express
-- HTML/CSS
+## 📝 Description
 
-## How to Run
-1. Clone this repository
-2. Run `npm install`
-3. Run `npm run dev`
-4. Open browser to `localhost:5173`
+A personal portfolio website built with pure HTML, CSS, and JavaScript. This project showcases my web development skills and serves as a learning platform.
 
-## Features
-- Multiple pages (Home, About, Contact)
-- Styled with CSS
-- Interactive UI
+## 🚀 Technologies Used
 
-## What I Learned
-- Setting up Node.js environment
-- Creating Express servers
-- Building React applications
-- Using GitHub for version control
+- **HTML** - markup and structure
+- **CSS** - Styling
+- **JavaScript** - Interactivity 
+- **Git & GitHub** - Version control
 
-## Future Improvements
-- Add more interactive features
-- Connect to a database
-- Deploy online
+## ✨ Features
 
-## Project Status
-🚧 Work in Progress
+- ✅ Responsive design (mobile-friendly)
+- ✅ Multiple pages (Home, About, Contact)
+- ✅ design
+- ✅ Interactive elements
+- ✅ Contact form with validation
+- ✅ Clean and organized code
+
+## 📂 Project Structure
