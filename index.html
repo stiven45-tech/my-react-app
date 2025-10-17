@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio </title>
+    <title>COOL STORE - Premium Fashion Collection</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="sandbox.js"></script>
 </head>
- <header>
+<body>
+    <!-- Header -->
+    <header>
         <nav>
             <div class="logo">COOL STORE</div>
             <ul class="nav-links">
@@ -17,9 +20,9 @@
             </ul>
         </nav>
     </header>
-   <body>
-       
-        <section class="hero" >
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
         <div class="hero-content">
             <h1>Premium Fashion Collection</h1>
             <h2>Discover Your Perfect Style</h2>
@@ -29,7 +32,8 @@
         </div>
     </section>
 
-     <section class="categories" id="categories">
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
         <h2 class="section-title">Shop by Category</h2>
         <p class="section-subtitle">Discover our carefully curated collections designed to elevate your style</p>
         
@@ -47,7 +51,8 @@
                 <p>Elegant accessories & timepieces</p>
                 <span class="category-count">200+ Items</span>
             </div>
-             <div class="category-card">
+            
+            <div class="category-card">
                 <div class="category-icon">👟</div>
                 <h3>Footwear</h3>
                 <p>Stylish shoes for all styles</p>
@@ -63,7 +68,161 @@
         </div>
     </section>
 
-        
-    </secton>
-   </body>
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="products-container">
+            <h2 class="section-title">Featured Products</h2>
+            <p class="section-subtitle">Handpicked favorites that define modern luxury and style</p>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Sale</span>
+                        👕
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Clothing</div>
+                        <h3 class="product-title">Premium Navy Hoodie</h3>
+                        <div class="product-rating">★★★★★ (124)</div>
+                        <div class="product-price">
+                            <span class="current-price">$89.99</span>
+                            <span class="original-price">$129.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge new">New</span>
+                        💎
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Jewelry</div>
+                        <h3 class="product-title">Luxury Gold Jewelry Set</h3>
+                        <div class="product-rating">★★★★★ (87)</div>
+                        <div class="product-price">
+                            <span class="current-price">$299.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        👟
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Footwear</div>
+                        <h3 class="product-title">Designer White Sneakers</h3>
+                        <div class="product-rating">★★★★★ (203)</div>
+                        <div class="product-price">
+                            <span class="current-price">$159.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Sale</span>
+                        👜
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Accessories</div>
+                        <h3 class="product-title">Emerald Leather Handbag</h3>
+                        <div class="product-rating">★★★★★ (156)</div>
+                        <div class="product-price">
+                            <span class="current-price">$249.99</span>
+                            <span class="original-price">$299.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <a href="#" class="btn btn-primary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Get 15% Off Your First Order</h2>
+            <p>Subscribe to our newsletter and be the first to know about new arrivals, exclusive sales, and style tips from our fashion experts.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe Now</button>
+            </form>
+            <p class="newsletter-disclaimer">By subscribing, you agree to our Privacy Policy and Terms of Service</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>COOL STORE</h3>
+                <p>Your destination for premium fashion, luxury accessories, and timeless style. Curated collections for the modern lifestyle.</p>
+                <p>📞 1-800-COOL-STORE</p>
+                <p>✉️ hello@coolstore.com</p>
+                <p>📍 123 Fashion Ave, Abuja City</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <a href="#">Clothing</a>
+                <a href="#">Footwear</a>
+                <a href="#">Jewelry</a>
+                <a href="#">Accessories</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Sale</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">Size Guide</a>
+                <a href="#">Shipping Info</a>
+                <a href="#">Returns</a>
+                <a href="#">FAQ</a>
+                <a href="#">Track Order</a>
+                <a href="#">Admin</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <a href="#">About Us</a>
+                <a href="#">Our Story</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <h3 style="margin-top: 1rem;">Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">📷</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📌</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 COOL STORE. All rights reserved.</p>
+            <div class="trust-badges">
+                <div class="trust-badge">💳 Secure Payments</div>
+                <div class="trust-badge">🚚 Free Shipping</div>
+                <div class="trust-badge">↩️ Easy Returns</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
